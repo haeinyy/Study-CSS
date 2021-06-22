@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 연습</title>
+    <style>
+        /* 아이디 선택자 */
+        #first {
+            background: red;
+        }
+
+        #second {
+            background: blue;
+        }
+
+        /* 클래스 선택자 */
+        span.desc {
+            background: gray;
+            font-size: 70px;
+        }
+
+        span.title {
+            background: yellow;
+            font-size: 50px;
+        }
+
+        .label{
+            color: white;
+        }
+
+        .title.label{
+            border: 1px solid black;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <!-- 아이디는 중복불가 -->
+    <div id="first">
+        첫번째 DIV
+    </div>
+    <div id="second">
+        두번째 DIV
+    </div>
+    <span class="title">
+        SPAN1
+    </span>
+    <span class="desc">
+        SPAN2
+    </span>
+
+    
+    <!-- title / label 두가지의 class를 한꺼번에 표시 -->
+    <span class = "title label">
+        SPAN3
+    </span>
+    
+    <span class="label">
+        SPAN4
+    </span>
+
+</body>
+
+</html>

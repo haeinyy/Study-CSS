@@ -1,0 +1,25 @@
+<style>
+    /* 라디오버튼 없애기 */
+    /*
+    input{
+        display: none;
+    }
+    */
+    
+    /* 라디오버튼이 체크 될때, 동생 lable의 자식모두  */
+    input:checked+label span {
+        background-color: purple;
+    }
+</style>
+
+<body>
+    <input type="radio" name="gender" id="female">
+    <label for="female">
+        <span>여자</span>
+    </label>
+    <br>
+    <input type="radio" name="gender" id="male">
+    <label for="male">
+        <span>남자</span>
+    </label>
+</body>
